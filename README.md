@@ -1,7 +1,7 @@
 # Eindopdracht UX
 
-- Voornaam:
-- Familienaam:
+- Voornaam: Yanaika
+- Familienaam: Van den Abbeel
 - Studentnummer: 
-- Klasgroep: 
+- Klasgroep: MMPc
 - UX prototype link: 
