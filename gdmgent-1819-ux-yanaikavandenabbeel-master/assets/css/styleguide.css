@@ -1,0 +1,423 @@
+:root {
+    /* Kleuren */
+    --color-blue: #3D4FD6;
+    --color-light-blue: #94BCDF;
+    --color-green: #46735E;
+    --color-grey: #707070;
+    --color-white: #ffffff;
+    --color-brown: #895233;
+    --color-black: #000;
+
+    /* Typografie */
+    --typo-Roboto: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--typo-Roboto);
+}
+
+.sg-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    margin: 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.sg-subtitle {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.kleuren {
+    display: flex;
+}
+
+.kleurenvoorstelling {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.kleurenvoorstelling:nth-child(1) {
+    background-color: var(--color-blue);
+}
+
+.kleurenvoorstelling:nth-child(2) {
+    background-color: var(--color-light-blue);
+}
+
+.kleurenvoorstelling:nth-child(3) {
+    background-color: var(--color-green);
+}
+
+.kleurenvoorstelling:nth-child(4) {
+    background-color: var(--color-brown);
+}
+
+.kleurenvoorstelling:nth-child(5) {
+    background-color: var(--color-grey);
+}
+
+.kleurenvoorstelling:nth-child(6) {
+    background-color: var(--color-black);
+}
+
+.kleurenvoorstelling:nth-child(7) {
+    background-color: var(--color-white);
+    border: 0.5px solid var(--color-black);
+}
+
+.typografie h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.typografie h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.typografie h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.typografie p {
+    font-size: 20px; 
+}
+
+.bttnBoek,
+.bttnSpel,
+.bttnOntdek,
+.bttnClick,
+.bttnTerug,
+.bttnBeoordeel,
+.bttnBoeken,
+.bttnVolwassenen {
+    margin: 20px 0px;
+}
+
+.bttnOntdek button,
+.bttnBeoordeel button,
+.bttnBoeken button,
+.bttnClick button,
+.bttnTerug button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+}
+
+.bttnOntdek button:hover,
+.bttnTerug button:hover,
+.bttnBoeken button:hover,
+.bttnBeoordeel button:hover,
+.bttnClick button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Boek nu*/
+
+.bttnBoek {
+    width: 250px;
+    height: 100px;
+    background-color: var(--color-light-blue);
+}
+
+.bttnBoek button {
+    font-size: 30px;
+    border: 2px solid var(--color-white);
+    background-color: transparent;
+    padding: 13.5px 33px;
+    color: var(--color-white);
+    text-transform: uppercase;
+    margin: 17.3px 28.28px;
+}
+
+.bttnBoek button:hover {
+    background-color: var(--color-white);
+    color: var(--color-light-blue);
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+/*Klik hier om te spelen*/
+
+.bttnSpel {
+    width: 400px;
+    height: 150px;
+    background-color: var(--color-green);
+}
+
+.bttnSpel button {
+    font-size: 32px;
+    border: 2px solid var(--color-white);
+    background-color: transparent;
+    padding: 30.5px 19px;
+    color: var(--color-white);
+    margin: 24.1px 26.92px;
+}
+
+.bttnSpel button:hover {
+    background-color: var(--color-white);
+    color: var(--color-green);
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+/*Ontdek Curaçao*/
+
+.bttnOntdek button {
+    font-size: 40px;
+    padding: 20px 23px;
+}
+
+/*Pijltje verder*/
+
+.bttnClick button {
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+}
+
+/*Terug*/
+
+.bttnTerug button {
+    font-size: 20px;
+    padding: 8px 26px 9px 17.42px;
+}
+
+.bttnTerug button i {
+    margin-right: 13.38px;
+}
+
+/*Beoordeel Hotel Amanda*/
+
+.bttnBeoordeel button {
+    font-size: 25px;
+    padding: 16.25px 16.50px;
+}
+
+/*Ik ga boeken*/
+
+.bttnBoeken button {
+    font-size: 25px;
+    padding: 19.5px 42.5px;
+}
+
+/*2 volwassenen*/
+
+.bttnVolwassenen button {
+    font-size: 18px;
+    background-color: var(--color-white);
+    border: var(--color-grey) solid 1px;
+    padding: 11px 0px 10px 33px;
+    color: var(--color-grey);
+}
+
+.bttnVolwassenen button i {
+    margin-right: 10.92px;
+    margin-left: 36px;
+    color: var(--color-black);
+}
+
+.bttnVolwassenen button:hover {
+    border-color: var(--color-black);
+}
+
+/*naam ingeven*/
+.inputVeld h1 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: var(--color-grey);
+    font-weight: 300;
+}
+
+.inputVeld input {
+    padding: 10px;
+}
+
+/*navigatie*/
+.navigatie {
+    background-color: rgb(84, 120, 219);
+}
+
+.navigatie ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.navigatie ul {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#hotelName {
+    font-size: 33px;
+    margin-right: 100px;
+}
+
+.navElement {
+    font-size: 18px;
+    margin-right: 49px;
+}
+
+
+.navigatie ul .navElement:hover {
+    text-decoration: underline var(--color-light-blue);
+}
+
+.navigatie ul li:nth-child(2),
+.navigatie ul li:nth-child(3),
+.navigatie ul li:nth-child(4),
+.navigatie ul li:nth-child(5) {
+    padding-top: 9px;
+}
+
+/*tussentekst*/
+
+.tussentekst {
+    font-size: 30px;
+    color: var(--color-grey);
+    margin: 51px 64.5px 64.5px 64.5px;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 300;
+    
+}
+
+.tussentekst::after {
+    border-bottom: solid 1.5px var(--color-grey);
+    display: block;
+    margin: 0 auto;
+    padding-top: 15.5px;
+    width: 700px;
+    content: '';
+}
+
+/*activiteit*/
+.activiteit {
+    width: 284.71px;
+}
+.activiteit img {
+    width: 284.71px;
+}
+
+.activiteit h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: var(--color-grey);
+    font-size: 30px;
+    font-weight: 400;
+}  
+
+/*type*/
+.type {
+    width: 93px;
+}
+
+.type h1 {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 4px;
+    font-weight: 400;
+}
+
+/*afbeelding standaard studio*/
+.standaardStudioEnAfbeelding {
+    position: relative;
+}
+
+.standaardStudioAfbeelding {
+    background-image: url(../images/photo-1522771739844-6a9f6d5f14af.jpg);
+    width: 384px;
+    height: 261px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.standaardStudioEnAfbeelding h1 {
+    font-size: 20px;
+    color: var(--color-grey);
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.standaardStudioEnAfbeelding ul li img {
+    width: 37px;
+    height: 37px;
+}
+
+.standaardStudioEnAfbeelding ul li {
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.standaardStudioEnAfbeelding ul {
+    position: absolute;
+    top: 34px; 
+    right: 810px; 
+}
+
+.borderImg {
+    border: 2px var(--color-grey) solid;     
+}
+
+
+/*Pablo*/
+.pablo {
+    background-color: #895233;
+    color: var(--color-white);
+    width: 316px;
+    
+}
+
+.info_Pablo {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.pablo h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 17px 30px 30px 30px;
+}
+
+.info_Pablo h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 22px;
+    margin-right: 60px;
+}
+
+.info_Pablo h3 {
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid var(--color-white);
+    padding: 7px 7px;
+}
+
+/*sterren*/
+.sterren i{
+    color: #FFED00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-grey);
+    margin-top: 20px;
+}
+
+.sterren i:last-child {
+    color: var(--color-grey);
+}
