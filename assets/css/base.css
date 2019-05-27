@@ -1,9 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   height: 100%;
 }
 
 body {
-  font-family: var(--t-body);
+  font-family: var(--typo-Roboto);
   height: inherit;
   margin: 0;
 }

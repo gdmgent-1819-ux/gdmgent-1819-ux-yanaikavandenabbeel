@@ -7,3 +7,213 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+/*header*/
+.homepage {
+    background-image: url(../images/IMG_3001.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage nav ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.homepage nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 49px;
+}
+
+#hotelName {
+    font-size: 33px;
+    margin: 58px 450px 0px 66px;
+}
+
+.navElement {
+    font-size: 18px;
+    margin-right: 49px;
+}
+
+.homepage nav ul li:nth-child(2),
+.homepage nav ul li:nth-child(3),
+.homepage nav ul li:nth-child(4),
+.homepage nav ul li:nth-child(5) {
+    padding-top: 9px;
+}
+
+.homepage nav ul .navElement:hover {
+    text-decoration: underline var(--color-light-blue);
+}
+
+.homepage h1 {
+    font-size: 40px;
+    color: var(--color-white);
+    font-weight: 200;
+    margin: 166px 486px 3px 486px;
+    text-align: center;
+}
+
+.homepage h2 {
+    font-size: 70px;
+    color: var(--color-white);
+    font-weight: 200;
+    text-align: center;
+    margin: 0px 405px 26px 405px;
+}
+
+/*main*/
+.reclame {
+    font-size: 30px;
+    color: var(--color-grey);
+    margin: 51px 64.5px 64.5px 64.5px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.reclame::after {
+    border-bottom: solid 1.5px var(--color-grey);
+    display: block;
+    margin: 0 auto;
+    padding-top: 15.5px;
+    width: 958px;
+    content: '';
+}
+
+.spel h1 {
+    font-size: 55px;
+    text-align: center;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 163px 409px 30px 409px;
+    margin: 0px;
+}
+
+.spel {
+    background-image: url(../images/photo-1518531933037-91b2f5f229cc.jpg);
+    height: 616px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aanbiedingen {
+    background-image: url(../images/photo-1458682625221-3a45f8a844c7.jpg);
+    height: 925.57px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verschillendeAanbiedingen {
+    width: 394.71px;
+    height: 394.71px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 925.57px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.verschillendeAanbiedingen:nth-child(1),
+.verschillendeAanbiedingen:nth-child(3) {
+    margin-right: 44px;
+}
+
+.verschillendeAanbiedingen:nth-child(1),
+.verschillendeAanbiedingen:nth-child(2) {
+    margin-bottom: 25.5px;
+}
+
+.verschillendeAanbiedingen:nth-child(1) {
+    background-image: url(../images/photo-1512757776214-26d36777b513.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verschillendeAanbiedingen:nth-child(2) {
+    background-image: url(../images/photo-1516734227364-28dd8bf8f9ea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verschillendeAanbiedingen:nth-child(3) {
+    background-image: url(../images/photo-1538944495092-48fff71fbb0c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verschillendeAanbiedingen:nth-child(4) {
+    background-image: url(../images/photo-1540981412106-6de4e3c1fc92.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verschillendeAanbiedingen:hover {
+    filter: grayscale();
+}
+
+.adres h1 {
+    text-align: center;
+    color: var(--color-grey);
+    font-size: 30px;
+    font-weight: 200;
+    margin: 66.08px 0px 23.36px 0px;
+}
+
+.adresGoogleMaps {
+    height: 304px;
+    width: 834px;
+    background-image: url("../images/2019-03-24\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.adres::after {
+    border-bottom: solid 1.5px var(--color-grey);
+    display: block;
+    margin: 0 auto;
+    padding-top: 61.5px;
+    width: 1169px;
+    content: '';
+}
+
+/*footer*/
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 7px 0px 25px 0px;
+}
+
+.logo i {
+    margin: 0px -7px;
+    padding-top: 30px;
+    color: var(--color-grey);
+}
+
+.logo h1,
+.logo h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    margin: 0px;
+    color: var(--color-grey);
+    font-weight: 200;
+}
+
+
+/*
+@media (max-width: 375px) {
+    .verschillendeAanbiedingen {  
+    }
+}
+*/

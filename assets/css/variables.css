@@ -1,26 +1,14 @@
-
 :root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+  /* Colour palette */
+  --color-blue: #3D4FD6;
+  --color-light-blue: #94BCDF;
+  --color-green: #46735E;
+  --color-grey: #707070;
+  --color-white: #ffffff;
 
-  /**
-   * Layout
-   */
+  /* Layout */
   --l-gutter: 1rem;
 
-  /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  /* Typography */
+  --typo-Roboto: 'Roboto', sans-serif;
 }
-
-
